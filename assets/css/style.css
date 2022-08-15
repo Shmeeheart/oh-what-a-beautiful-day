@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column {
+  flex: 50%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-right: 10px;
+}
+
+#five-day div {
+  display: flex;
+}
+
+.header {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: goldenrod;
+  background-image: url(../images/weather.png);
+}
+
+.header h1 {
+  display: inline-flexbox;
+  font-size: 48px;
+}
+
+body {
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: 600px;
+  font-family: 'Metrophobic', sans-serif;
+  background-position: top center;
+  background-size: cover;
+}
+
+#input {
+  padding: 2px;
+  margin: 15px;
+  height: 30px;
+  width: 300px;
+}
+
+#btn {
+  font-size: 20px;
+  height: 30px;
+  width: 100px;
+  background-color: lavender;
+  color: black;
+}
+
+#button {
+  padding: 2px;
+  margin: 15px;
+  font-size: 20px;
+  height: 30px;
+  width: 300px;
+  background-color: lightskyblue;
+  color: black;
+}
+
+/* style the h1 */
+header h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+}
+/* style the h2 */
+.custom-h2 {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.current-day {
+  font-size: 15px;
+  width: 100%;
+  border-radius: 0.4rem;
+  border: 0.1rem solid black;
+  height: 300px;
+  padding-bottom: 0.5rem;
+  padding-top: 0px;
+  padding-left: 0.5rem;
+}
+
+.current-day p {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+}

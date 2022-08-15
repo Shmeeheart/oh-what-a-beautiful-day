@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <div class="header">
+      <img />
+      <h1>Weather Dashboard</h1>
+      <p>Oh, What a Beautiful Day!</p>
+    </div>
+
+    <div class="columns">
+      <div class="column">
+        <h2 class="custom-h2">Search for a City:</h2>
+        <input id="input" type="text" />
+        <button id="btn">Search</button>
+        <button id="button">Click Here for Search History</button>
+        <div id="history">
+          <ul></ul>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="current-day">
+          <p class="custom-h2" id="city-name"></p>
+          <p id="temp"></p>
+          <p id="wind"></p>
+          <p id="humidity"></p>
+          <p id="uv-index"></p>
+          <img id="icon" />
+        </div>
+        <div id="five-day">
+          <h2 class="custom-h2">5-Day Forecast</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
