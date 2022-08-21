@@ -19,6 +19,7 @@ Github:
 https://github.com/Shmeeheart/oh-what-a-beautiful-day
 
 Application URL:
+https://shmeeheart.github.io/oh-what-a-beautiful-day/
 
 
 Contributors:
