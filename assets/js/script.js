@@ -14,7 +14,7 @@ var getWeatherData = function (event) {
     searchHistory(city);
   }
   var geoUrl =
-    'http://api.openweathermap.org/geo/1.0/direct?q=' +
+    'https://api.openweathermap.org/geo/1.0/direct?q=' +
     city +
     '&limit=1&appid=6b71a8d8c70f361a926ff11e14b5abf8';
   fetch(geoUrl)
